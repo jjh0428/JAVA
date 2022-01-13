@@ -1,4 +1,4 @@
-package com.java.chapter01;
+package com.java.javatest;
 
 public class Test03 {
 
@@ -7,13 +7,13 @@ public class Test03 {
 		int a=3, b=7;
 		
 		if(a==b)
-			System.out.printf("a¿Í b°¡ °°½À´Ï´Ù. a=b=%d", a);
+			System.out.printf("aì™€ bê°€ ê°™ìŠµë‹ˆë‹¤. a=b=%d", a);
 		else {
-			System.out.println("a¿Í b°¡ °°Áö ¾Ê½À´Ï´Ù.");
+			System.out.println("aì™€ bê°€ ê°™ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 			if(a>b) {
-				System.out.printf("a°¡ bº¸´Ù %d¸¸Å­ ´õ Å®´Ï´Ù.", a-b);
+				System.out.printf("aê°€ bë³´ë‹¤ %dë§Œí¼ ë” í½ë‹ˆë‹¤.", a-b);
 			} else {
-				System.out.printf("b°¡ aº¸´Ù %d¸¸Å­ ´õ Å®´Ï´Ù.", b-a);
+				System.out.printf("bê°€ aë³´ë‹¤ %dë§Œí¼ ë” í½ë‹ˆë‹¤.", b-a);
 			}
 		}
 		
