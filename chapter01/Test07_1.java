@@ -5,8 +5,8 @@ public class Test07_1 {
 	public static void main(String[] args) {
 		
 		int[] arr1 = {1, 2, 3, 4, 5};
-		int[] arr2 = arr1; //arr1 = arr2 ÇÏ³ª°¡ ¹Ù²î¸é °°ÀÌ °ªÀÌ ¹Ù²ñ
-		int[] arr3 = arr1.clone(); //arr1 != arr3 arr1ÀÇ ¹è¿­À» ±×´ë·Î °¡Á®¿È
+		int[] arr2 = arr1; //arr1 = arr2 í•˜ë‚˜ê°€ ë°”ë€Œë©´ ê°™ì´ ê°’ì´ ë°”ë€œ
+		int[] arr3 = arr1.clone(); //arr1 != arr3 arr1ì˜ ë°°ì—´ì„ ê·¸ëŒ€ë¡œ ê°€ì ¸ì˜´
 		
 		for(int i=0; i<arr2.length; i++) {
 			System.out.println(arr2[i]);
