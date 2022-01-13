@@ -39,7 +39,7 @@ public class Test08 {
 				current[j] = charArray[i+j];
 			}
 			
-			//char[]¸¦ StringÀ¸·Î º¯È¯
+			//char[]Â¸Â¦ StringÃ€Â¸Â·ÃŽ ÂºÂ¯ÃˆÂ¯
 			String seq = new String(current);
 			
 			switch(seq) {
