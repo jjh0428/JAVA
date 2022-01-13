@@ -1,9 +1,9 @@
-package javatest;
+package com.java.chapter01;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Test10 {
+public class Test10_1 {
 
 	public static void main(String[] args) {
 
