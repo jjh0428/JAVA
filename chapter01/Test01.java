@@ -15,10 +15,10 @@ public class Test01 {
 		boolean emp = input.nextBoolean();
 		String cname = input.next();
 		
-		System.out.printf("ÀÌ¸§: %s\n", name);
-		System.out.printf("»ıÀÏ: %d³â %d¿ù %dÀÏ\n", year, month, day);
-		System.out.printf("Ãë¾÷¿©ºÎ: %b\n", emp);
-		System.out.printf("È¸»ç: %s\n", cname);
+		System.out.printf("ì´ë¦„: %s\n", name);
+		System.out.printf("ìƒì¼: %dë…„ %dì›” %dì¼\n", year, month, day);
+		System.out.printf("ì·¨ì—…ì—¬ë¶€: %b\n", emp);
+		System.out.printf("íšŒì‚¬: %s\n", cname);
 
 	}
 
