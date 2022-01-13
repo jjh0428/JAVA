@@ -1,4 +1,4 @@
-package com.java.chapter01;
+package com.java.javatest;
 
 public class HelloWorld {
 
