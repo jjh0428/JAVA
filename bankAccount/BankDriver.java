@@ -4,7 +4,7 @@ public class BankDriver {
 
 	public static void main(String[] args) {
 		
-		Person p1 = new Person();
+		Person p1 = new Person(); // 기본생성자 사용
 		p1.setName("홍길동");
 		p1.setAge(25);
 		p1.setCashAmount(30000);
@@ -19,6 +19,13 @@ public class BankDriver {
 		p1.setAccount(a1);
 		a1.setOwner(p1);
 		
+		Person p3 = new Person("홍길순", 19); // 파라미터 2개인 생성자 사용
+		System.out.println(p3.getName());
+		System.out.println(p3.getAge());
+		
+		
+		Person p4 = new Person("가나다"); // 파라미터 1개인 생성자 사용
+		System.out.println(p4.getName());
 		// 테스트
 		//System.out.println(p1.getName+"의 계좌 잔액: "+p1.getAccount.balance);
 //		BankDriver 클래스에 아래 인스턴스를 생성

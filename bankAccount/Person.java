@@ -7,6 +7,15 @@ public class Person {
 	private int cashAmount;
 	private BankAccount account;
 	
+	public Person() {} // 기본 생성자
+	public Person(String pName) { // 생성자도 오버로딩이 가능
+		name = pName;
+	}
+	public Person(String pName, int pAge) { // 생성자는 초기화의 기능을 한다.
+		name = pName;
+		age = pAge;
+	}
+	
 	public void setName(String newName) {
 		name = newName;
 	}
