@@ -35,5 +35,19 @@ public class Person {
 		account = newAccount;
 	}
 	
+	public boolean transfer(Person to, int amount) {
+		if(amount < 0 || account.getBalance() < amount) {
+			System.out.println("false - from: "+getName()+", to: "+to.getName()+", amount: "+amount+", balance: "+account.getBalance());
+			return false;
+		}
+		account.setBalance(account.getBalance() - amount);
+		to.getAccount().setBalance(to.getAccount().getBalance() + amount);
+		System.out.println("true - from: "+getName()+", to: "+to.getName()+", amount: "+amount+", balance: "+account.getBalance());
+		return true;
+	}
+	
+	public boolean transfer(BankAccount to, int amount) {
+		return transfer(to.getOwner(), amount);
+	}
 	
 }
